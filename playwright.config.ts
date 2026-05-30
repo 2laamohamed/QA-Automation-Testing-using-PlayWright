@@ -31,7 +31,7 @@ export default defineConfig({
    
     
     // لو CI شغال مخفي (true)، لو عندك بيفتح المتصفح (false) عشان تشوف اللي بيحصل
-    headless: !!process.env.CI , 
+   // headless: !!process.env.CI , 
   },
 
   projects: [
