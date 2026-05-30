@@ -3,7 +3,7 @@ import User from '../Models/user';
 import registerPage from '../pages/registerPage';
 import NewToDoPage from '../pages/NewTodoPage'; // تأكدي إن الاسم كابيتال هنا وفوق
 
-test("login and add todo", async ({ page, request, context }) => {
+test("login & add todo", async ({ page, request, context }) => {
     
     const RegisterPage = new registerPage(page, request, context);
     const loggedInUser = new User("", "", "Abcd@123.com", "Abcd@123");

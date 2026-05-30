@@ -6,7 +6,7 @@ import userAPI from '../APIS/userAPI';
 import registerPage from '../pages/registerPage';
 
 // signUP from UI
- test("signup", async ({page})=>{
+ test("signup using the UI", async ({page})=>{
         const user= new User( faker.person.firstName(), faker.person.lastName() , faker.internet.email() , "Abcd@123")
      
 
